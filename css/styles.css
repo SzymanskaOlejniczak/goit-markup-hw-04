@@ -48,8 +48,19 @@ body {
     color: #FFFFFF;
 }
 .area {
+    
     background: #2f303a;
     height: 600px;
+}
+.section-1 {
+    background-color: rgba(47, 48, 58, 1);
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), 
+        url(/images/Img.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
 }
 .section {
  padding-top: 94px;
@@ -286,4 +297,5 @@ figure {
     margin-right: 0px;
     margin-left: 0px;
 }
+
 
