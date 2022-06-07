@@ -316,5 +316,82 @@ figure {
     justify-content: space-between;
     align-content: center;
 }
+.social-list {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+   
+}
+.social-list:hover {
+    background-color: #2196f3;
+}
+.icons-social {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+    
+}
+.container-icons-social {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-content: center;
+    list-style: none;
+    margin-right: 32px;
+    margin-bottom: 30px; 
+}
+.social-list-footer {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: red;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 
+}
 
+.social-list-footer:hover {
+    background-color: #2196f3;
+}
+
+.icons-social-footer {
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+
+}
+
+.container-icons-social-footer {
+    display:flex;
+    text-decoration: none;
+    justify-content:center;
+    align-content: center;
+    list-style: none;
+   
+}
+.text-footer {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 17;
+    text-align: center;
+    color: #FFFFFF;
+}
+.icon-konsument {
+width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+
+}
+.icon-konsument-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
