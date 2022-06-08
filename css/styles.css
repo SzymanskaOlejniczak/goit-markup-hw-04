@@ -229,8 +229,12 @@ ul li {
     
 }
 .container-footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    padding: 60px;
 }
 .header {
     border-bottom: 1px solid #ECECEC;
@@ -265,6 +269,11 @@ ul li {
     list-style: none;
     padding-left: 0px;
     margin: 0px;
+}
+.img-item3:hover {
+    background: #FFFFFF;
+    border: 4px solid #EEEEEE;
+
 }
 figure {
     padding: 0;
@@ -307,13 +316,30 @@ figure {
 .icon-header:hover {
     fill:#2196f3;
 }
+.icon {
+    width:70px;
+    height: 70px;
+    fill:#212121;
+  
+}
+.icons-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons-main:hover {
+    fill:#2196f3;
+}
+.icon-main:hover {
+    fill: #2196f3;
+}
 .icon-main {
-    display: block;
+    display: flex;
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
 }
 .social-list {
@@ -332,8 +358,10 @@ figure {
 .icons-social {
     width: 20px;
     height: 20px;
-    fill: #AFB1B8;
-    
+    fill: #AFB1B8;  
+}
+.icons-social:focus {
+    fill: #FFFFFF;
 }
 .container-icons-social {
     display: flex;
@@ -348,7 +376,7 @@ figure {
     display: flex;
     width: 44px;
     height: 44px;
-    background-color: red;
+    background: rgba(255, 255, 255, 0.1);;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
@@ -381,13 +409,17 @@ figure {
     line-height: 1, 17;
     text-align: center;
     color: #FFFFFF;
+  
 }
 .icon-konsument {
 width: 170px;
 height: 92px;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
-
+fill:#AFB1B8;
+}
+.icon-konsument:hover {
+    fill:#2196f3;
 }
 .icon-konsument-list {
     list-style: none;
@@ -395,3 +427,15 @@ border-radius: 4px;
     justify-content: space-between;
     align-content: center;
 }
+
+.icon-logo {
+    fill:#AFB1B8;
+}    
+
+.icon-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
