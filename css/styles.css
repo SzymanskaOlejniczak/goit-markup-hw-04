@@ -423,6 +423,7 @@ fill:#AFB1B8;
 }
 .icon-konsument:hover {
     fill:#2196f3;
+    border: 1px solid #2196f3;
 }
 .icon-konsument-list {
     list-style: none;
