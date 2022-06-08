@@ -439,7 +439,7 @@ fill:#AFB1B8;
 .icon-footer {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
-    align-items: center;
+    justify-content:center;
+    align-content:center;
 }
 
