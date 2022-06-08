@@ -22,17 +22,18 @@
             </ul>
             </nav> 
             <ul class="menu">
-                <li><svg class="icon-header">
+                <li class="menu-item">
+                    <svg class="icon-header">
                         <use
                         href="/images/icons.svg#envelope"></use>
-                        </svg></li>
-                <li class="menu-item">
+                    </svg>
                     <a href="mailto:info@devstudio.com" class="grey link">info@devstudio.com</a></li>
-                <li><svg class="icon-header">
+                <li class="menu-item">
+                    <svg class="icon-header">
                         <use
                         href="images/icons.svg#mobile"></use>
-                        </svg></li>
-                <li class="menu-item"><a href="phone:+48111111111" class="grey link">(+48)111 111 111</a></li>
+                    </svg>
+                    <a href="phone:+48111111111" class="grey link">(+48)111 111 111</a></li>
             </ul>
             </div>
         </header>
@@ -44,7 +45,7 @@
         </section>
         <section>
             <div class="card-set container section">
-                    <div>
+                    <div><a class="icons-main" href="#"></a>
                         <svg class="icon-main"> 
                             <use href="/images/icons.svg#antenna"></use>
                          </svg>
@@ -53,7 +54,8 @@
 Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Nam vel arcu sem. Sed
 non sodales dui. Interdum et malesuada</p></div>
-                   <div><svg class="icon-main"> 
+                   <div><a class="icon" href="#"></a>
+                       <svg class="icon-main"> 
                             <use href="images/icons.svg#clock"></use>
                          </svg>
                          <h3 class="text-post">LOREM IPSUM</h3>
@@ -61,14 +63,16 @@ non sodales dui. Interdum et malesuada</p></div>
 Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Nam vel arcu sem. Sed
 non sodales dui. Interdum et malesuada</p></div>
-                    <div><svg class="icon-main"> 
+                    <div><a class="icon" href="#"></a>
+                        <svg class="icon-main icon"> 
                             <use href="images/icons.svg#diagram"></use>
                          </svg><h3 class="text-post">LOREM IPSUM</h3>
                     <p class="text-post1">
 Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Nam vel arcu sem. Sed
 non sodales dui. Interdum et malesuada</p></div>
-                    <div><svg class="icon-main">
+                    <div><a href="#"></a>
+                        <svg class="icon-main">
                             <use href="images/icons.svg#astronaut"></use>
                     </svg><h3 class="text-post">LOREM IPSUM</h3>
                     <p class="text-post1">
@@ -255,38 +259,43 @@ non sodales dui. Interdum et malesuada</p></div>
         <div class="container">
             <h2 class="text-heading2">Nasi klienci</h2>
             <ul class="icon-konsument-list">
-                <li>
-                    <svg class="icon-konsument"> 
-                        <use href=""></use>
+                <li><a class="icon-logo" 
+                    href="#"></a>
+                    <svg class="icon-konsument icon-logo"> 
+                        <use href="/images/icons.svg#Logo"></use>
                     </svg>
                 </li>    
-                <li>
-                    <svg class="icon-konsument"> 
-                        <use href=""></use>
+                <li><a href="#"></a>
+                    <svg class="icon-konsument icon-logo"> 
+                        <use href="/images/icons.svg#Logo2"></use>
                     </svg>
                 </li> 
                 <li>
                     <svg class="icon-konsument"> 
-                        <use href=""></use>
+                        <use href="/images/icons.svg#Logo3"></use>
                     </svg>
                 </li> 
                 <li>
                     <svg class="icon-konsument"> 
-                        <use href=""></use>
+                        <use href="/images/icons.svg#Logo4"></use>
                     </svg>
                 </li> 
                 <li>
-                    <svg class="icon-konsument"> 
-                        <use href=""></use>
+                    <svg class="icon-konsument icon-logo"> 
+                        <use href="/images/icons.svg#Logo5"></use>
                     </svg>
-                </li> 
+                </li>
+                 <li><a href="#"></a>
+                    <svg class="icon-konsument icon-logo"> 
+                        <use href="/images/icons.svg#Logo6"></use>
+                    </svg>
+                </li>  
         </div>
         </section>    
         </main>
-        <footer class="area3">
-            
-            <div class="container">
-                <a href="WebStudio"><h3 class="text-logo-footer"><span class="blue">Web</span><span class="white">Studio</span></h3></a>
+        <footer class="area3">  
+            <div class="container contener-footer">
+                <div><a href="WebStudio"><h3 class="text-logo-footer logo-footer"><span class="blue">Web</span><span class="white">Studio</span></h3></a>
                 <address class="text-adres white">
                      m. Warszawa, Aleje Jerozolimskie 21
                 </address>
@@ -296,10 +305,10 @@ non sodales dui. Interdum et malesuada</p></div>
                 <address>
                     <a href="phone:+48111111111" class="text-adres color-adres">(+48)111 111 111</a>
                 </address>
-            <div>
-                <p class="text-footer">DOŁĄCZ DO NAS</p>
-            </div>
-            <ul class="container-icons-social-footer">
+                </div>
+                <div class="icon-footer">
+                    <h3 class="text-footer">DOŁĄCZ DO NAS</h3>
+                    <ul class="container-icons-social-footer">
                         <li><a class="social-list-footer" href="#">
                         <svg class="icons-social-footer">
                             <use href="/images/icons.svg#instagram"></use>
@@ -313,7 +322,7 @@ non sodales dui. Interdum et malesuada</p></div>
                         </a>
                         </li>
                         <li><a class="social-list-footer" href="#">
-                        <svg class="icons-social">
+                        <svg class="icons-social-footer">
                             <use href="/images/icons.svg#facebook"></use>
                         </svg>
                         </a>
@@ -324,7 +333,8 @@ non sodales dui. Interdum et malesuada</p></div>
                         </svg>
                         </a>
                         </li>
-                    </ul>
+                        </ul>
+                    </div>    
                 </div>       
         </footer>
     </body>
