@@ -231,10 +231,10 @@ ul li {
 .container-footer {
     height: 252px;
     display: flex;
-    flex-direction: column;
     justify-content: left;
     align-items: center;
-    padding: 60px;
+    text-align: left;
+    
 }
 .header {
     border-bottom: 1px solid #ECECEC;
@@ -407,6 +407,7 @@ display: flex;
    
 }
 .text-footer {
+    display: block;
     font-weight: 700;
     font-size: 14px;
     line-height: 1, 17;
@@ -438,8 +439,16 @@ fill:#AFB1B8;
 
 .icon-footer {
     display: flex;
+    flex-direction:column;
+    justify-content:start;
+   
+}    
+    
+.style-footer {
+    display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-content:center;
+    justify-content: center;
+    align-items: center;
+    
 }
 
