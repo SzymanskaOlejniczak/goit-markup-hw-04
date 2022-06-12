@@ -26,6 +26,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 20px;
+    list-style: none;
 }
 
 .link:hover {
@@ -158,6 +159,7 @@ body {
 
 a {
     text-decoration: none;
+    list-style: none;
 }
 
 .container-button {
@@ -220,6 +222,7 @@ ul li {
 .container {
     width: 1200px;
     margin: 0 auto;  
+    list-style: none;
 }
 .container-header {
     display: flex;
@@ -230,10 +233,10 @@ ul li {
 }
 .container-footer {
     height: 252px;
-    display: flex;
-    justify-content: left;
+   display: flex;
+    /*justify-content: left;*/
     align-items: center;
-    text-align: left;
+    /*text-align: left;*/
     
 }
 .header {
@@ -383,11 +386,10 @@ display: flex;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-
 }
 
-.social-list-footer:hover {
+.social-list-footer:hover
+.social-list-footer:focus {
     background-color: #2196f3;
 }
 
@@ -401,18 +403,20 @@ display: flex;
 .container-icons-social-footer {
     display:flex;
     text-decoration: none;
-    justify-content:center;
-    align-content: center;
+    align-items: center;
     list-style: none;
+    gap: 10px;
    
 }
 .text-footer {
-    display: block;
+    /*display: block;*/
     font-weight: 700;
     font-size: 14px;
-    line-height: 1, 17;
-    text-align: center;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform:uppercase;
     color: #FFFFFF;
+    padding-bottom: 20px;
   
 }
 .icon-konsument {
@@ -421,6 +425,7 @@ height: 92px;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
 fill:#AFB1B8;
+cursor: pointer;
 }
 .icon-konsument:hover {
     fill:#2196f3;
@@ -431,24 +436,31 @@ fill:#AFB1B8;
     display: flex;
     justify-content: space-between;
     align-content: center;
+    cursor: pointer;
 }
 
 .icon-logo {
     fill:#AFB1B8;
+    cursor: pointer;
 }    
 
 .icon-footer {
     display: flex;
     flex-direction:column;
-    justify-content:start;
+    /*justify-content:start;*/
+    list-style: none;
+    text-decoration: none;
    
 }    
     
-.style-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.style-footer 
+   /* display: flex;
+    /*flex-direction: column;*/
+   /* justify-content: center;
     align-items: center;
+    list-style: none;  
+}*/
+.contact {
     
+    list-style: none;
 }
-
