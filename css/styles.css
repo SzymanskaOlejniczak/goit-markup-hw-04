@@ -339,17 +339,19 @@ a svg {
     align-items: center;
    
 }
-.social-list:hover {
+.social-list:hover
+.icons-social:hover {
     background-color: #2196f3;
+    fill: #FFFFFF;
 }
 .icons-social {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;  
 }
-.icons-social:hover {
+/*.icons-social:hover {
     fill: #FFFFFF;
-}
+}*/
 .container-icons-social {
     display: flex;
     text-decoration: none;
